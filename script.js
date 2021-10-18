@@ -1,7 +1,9 @@
 // variables
 
+alert(" Welcome To Abhi Music :)");
+
 let index = 0;
-let audioElement = new Audio('1.mp3');
+let audioElement = new Audio('song/1.mp3');
 let masterPlay = document.getElementById('masterPlay');
 let myProgress = document.getElementById('myProgress');
 let gif = document.getElementById('gif');
@@ -9,7 +11,7 @@ let songMaster = document.getElementById('songMaster');
 
 
 let songs = [
-    { songName: "Kashh Tu Mila Hota", filePath: "1.mp3", coverPath: "https://lh3.googleusercontent.com/pw/AM-JKLVXinnFD98GDBjflIp1Daw2qAH1p66Xa3DA86zMRMniPUFG3uXaIQMLQIaaAvxMMAUPRHmXWrCe9LA-awMYlCFmAxcoQQUu6QMPOXo446ZIFm3sCvTHGhSQk2oB_sOcTsebxNjbsIzf9zFt5I_JrEMD=w300-h168-no?authuser=0"},
+    { songName: "Kashh Tu Mila Hota", filePath: "song/1.mp3", coverPath: "https://lh3.googleusercontent.com/pw/AM-JKLVXinnFD98GDBjflIp1Daw2qAH1p66Xa3DA86zMRMniPUFG3uXaIQMLQIaaAvxMMAUPRHmXWrCe9LA-awMYlCFmAxcoQQUu6QMPOXo446ZIFm3sCvTHGhSQk2oB_sOcTsebxNjbsIzf9zFt5I_JrEMD=w300-h168-no?authuser=0"},
     { songName: "Tum Mere Ho", filePath: "song/2.mp3", coverPath: "https://lh3.googleusercontent.com/pw/AM-JKLUmtTHZsI_F_HqRXeq-uLdGDGKpC7Heo6hQCoADaYW3NLUNgCfybtQHZc7zwZJ6cNjbNk8Ljck-qk9lJRg8RVXjckGKaq8GXF7o5yPWjqCJbo1Jkt06Q5tzBSR_7RYKzn1Bux-IQbDTMI3JPG586MjV=s225-no?authuser=0" },
     { songName: "Feeling", filePath: "song/3.mp3", coverPath: "https://lh3.googleusercontent.com/pw/AM-JKLVZBdncJyutGqD1QAvCktovikvxw3bTC7jAf8Oq9SIkO0JpYJ_TfdTer8MWRUAJmHntiOVvPe2eu50HVa5P1ZJy3bWuChaAPAGYnMXKQzOw5TgRGZh4E7w4H04S8E0O-aK1IO5VBJ13f6_AADyF8NU5=s225-no?authuser=0" },
     { songName: "Thoda Thoda Payrr Hua", filePath: "song/4.mp3", coverPath: "https://lh3.googleusercontent.com/pw/AM-JKLVK4JZzgxWUcduZ_IY0rmiQnJo0te8PeM-Y9dHxZKHMtU4hw2GtQLv1aCIZN5d86omzHf0etc7e2ypJUBqaXNYCYHwAn66nyWIhYfTcGEJ8zFXtSQL1laYaXsoXXAtM0Z7xPnvMpFCyAT8rWmu6oCH7=s225-no?authuser=0" },
