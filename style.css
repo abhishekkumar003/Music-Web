@@ -129,4 +129,21 @@ nav ul li{
     height: 40px;
     opacity: 0;
     transition: opacity 0.4s ease-in;
+    position: relative;
+    bottom: -15px;
 }
+
+@media screen and (max-width : 600px)
+    {
+        #gif{
+            display: none;
+        }
+        
+        .info{
+            position: absolute;
+            top: 2px;
+        }
+}   
+    
+    
+    
