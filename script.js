@@ -1,7 +1,7 @@
 // variables
 
 let index = 0;
-let audioElement = new Audio("https://drive.google.com/file/d/1KRpOgpvEnxGZdJ_L2VaQ36-fyS7kLtvU/preview");
+let audioElement = new Audio(`https://drive.google.com/file/d/1KRpOgpvEnxGZdJ_L2VaQ36-fyS7kLtvU/preview`);
 let masterPlay = document.getElementById('masterPlay');
 let myProgress = document.getElementById('myProgress');
 let gif = document.getElementById('gif');
